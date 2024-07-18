@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int s1,s2,s3,s4,s5,avg;
+    
+    cout << "Enter the s1 marks: " << endl;
+    cin >> s1;
+    
+    cout << "enter the s2 marks:" << endl;
+    cin >> s2;
+    
+    cout << "enter the s3 marks:" << endl;
+    cin >> s3;
+    
+    cout << "enter the s4 marks:" << endl;
+    cin >> s4;
+    
+    cout << "enter the s5 marks:" << endl;
+    cin >> s5;
+    avg=(s1+s2+s3+s4+s5)/5;
+    
+    if (avg >=90 and avg <=100) {
+        cout << "Your grade is O." << endl;
+    } 
+    else if(avg >=85 and avg<=90){
+        cout << "your grade is A+." << endl;
+    }
+    else if(avg >=70 and avg<=85){
+        cout << "Your grade is B+" << endl;
+    }
+    else if(avg >=60 and avg<=70){
+        cout << "your grade is B." << endl;
+    }
+    else if (avg>=55 and avg<=60){
+        cout<< "your grade is C" << endl;
+    }
+else{
+    cout<< "your grade is F" << endl;
+  }
+    return 0;
+}
