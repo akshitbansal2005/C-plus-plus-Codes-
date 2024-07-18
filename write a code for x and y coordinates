@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x,y;
+    
+    cout << "Enter x coordinate: " << endl;
+    cin >> x;
+    
+    cout << "enter y coordinate:" << endl;
+    cin >> y;
+    
+    if (x>0 and y>0) {
+        cout << "it is the first quadrant." << endl;
+    } 
+    else if(x>0 and y<0){
+        cout << "it is the second quadrant." << endl;
+    }
+    else if(x<0 and y<0){
+        cout << "it is the third quadrant." << endl;
+    }
+    else if(x<0 and y>0){
+        cout << "it is the fourth quadrant." << endl;
+    }
+    else{
+        cout<< "it is an origin" << endl;
+    }
+    return 0;
+}
