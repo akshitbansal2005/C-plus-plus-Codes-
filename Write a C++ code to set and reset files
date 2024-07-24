@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n,bit_to_be_set,bit_to_be_reset,set,reset;
+    cout<< "enter the number n:"<<endl;
+    cin>>n;
+    cout<<"enter the position to set:"<<endl;
+    cin>>bit_to_be_set;
+    set=n|(1<<bit_to_be_set);
+    cout<<"enter the position to reset:"<<endl;
+    cin>>bit_to_be_reset;
+    cout<< "your number is:"<<set<<endl;
+    cout<< "your number is:"<<set<<endl;
+    
+    return 0;
+}
